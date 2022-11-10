@@ -1,5 +1,5 @@
 from flask import Flask, request, abort
-from msg91_service.test_WA import  notify_WH_message, send_simple_message, send_admin_reply, send_template_message, notify_WH_message_Template
+from test_WA import  notify_WH_message, send_simple_message, send_admin_reply, send_template_message, notify_WH_message_Template
 
 app = Flask(__name__)
 
